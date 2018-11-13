@@ -8,7 +8,7 @@ attr_accessor  :side_one, :side_two, :side_three
     @side_three = side_three
   end
   def kind
-    if (side_one || side_two || side_three) == 0
+    if side_one == 0
       begin
         raise TriangleError
       rescue TriangleError => error
