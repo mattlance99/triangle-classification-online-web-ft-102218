@@ -28,7 +28,9 @@ attr_accessor  :side_one, :side_two, :side_three
     end
   end
 
-  class TriangleError < StandardError
-    "The triangle has a side that is zero"
+   class TriangleError < StandardError
+    def message 
+      "Bad triangle"
+    end
   end
 end
