@@ -34,7 +34,7 @@ attr_accessor  :side_one, :side_two, :side_three
 
    class TriangleError < StandardError
     def message 
-      "Bad triangle"
+      "Triangle is Invalid"
     end
   end
 end
