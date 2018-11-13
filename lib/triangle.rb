@@ -32,12 +32,13 @@ attr_accessor  :side_one, :side_two, :side_three
      end
     end
   end
-
+    
+  class Triangle  
    class TriangleError < StandardError
     def message 
       "Triangle is Invalid"
     end
-    
+  end
     # if 
     #((side_one + side_two) < side_three) || ((side_one + #side_three) < side_two) ||  ((side_two + side_three) < #side_one) then raise TriangleError
   end
