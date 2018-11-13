@@ -28,8 +28,8 @@ attr_accessor  :side_one, :side_two, :side_three
        :isosceles
      else
        :scalene
+     
      end
-    end
   end
     
    class TriangleError < StandardError
