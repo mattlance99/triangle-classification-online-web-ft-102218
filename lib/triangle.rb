@@ -19,7 +19,7 @@ attr_accessor  :side_one, :side_two, :side_three
       end
 
     else 
-    end
+
       if (side_one == side_two) && (side_two == side_three)
       :equilateral
       elsif
@@ -29,6 +29,7 @@ attr_accessor  :side_one, :side_two, :side_three
        :isosceles
      else
        :scalene
+     end
     end
   end
 
