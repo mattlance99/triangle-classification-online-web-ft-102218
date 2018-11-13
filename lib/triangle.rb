@@ -18,8 +18,7 @@ attr_accessor  :side_one, :side_two, :side_three
       raise TriangleError
     end
     
-    
-
+  
       if (side_one == side_two) && (side_two == side_three)
       :equilateral
       elsif
