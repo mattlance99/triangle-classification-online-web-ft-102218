@@ -14,8 +14,7 @@ attr_accessor  :side_one, :side_two, :side_three
       
     end
   end
-end 
-  
+
   class TriangleError < StandardError
     # triangle error code
   end
