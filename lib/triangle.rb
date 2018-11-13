@@ -38,6 +38,6 @@ attr_accessor  :side_one, :side_two, :side_three
     end
     
     # if 
-    ((side_one + side_two) < side_three) || ((side_one + side_three) < side_two) ||  ((side_two + side_three) < side_one) then raise TriangleError
+    #((side_one + side_two) < side_three) || ((side_one + #side_three) < side_two) ||  ((side_two + side_three) < #side_one) then raise TriangleError
   end
 end
