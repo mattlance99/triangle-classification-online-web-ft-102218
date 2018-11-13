@@ -12,12 +12,12 @@ attr_accessor  :side_one, :side_two, :side_three
   
   def kind
     if side_one == 0
-      binding.pry
       begin
         raise TriangleError
       rescue TriangleError => error
           puts error.message
       end
+      binding.pry
     else 
     end
       if (side_one == side_two) && (side_two == side_three)
