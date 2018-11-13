@@ -17,7 +17,7 @@ attr_accessor  :side_one, :side_two, :side_three
       rescue TriangleError => error
           puts error.message
       end
-      binding.pry
+
     else 
     end
       if (side_one == side_two) && (side_two == side_three)
