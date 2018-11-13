@@ -15,7 +15,7 @@ attr_accessor  :side_one, :side_two, :side_three
       begin
         raise TriangleError
       rescue TriangleError => error
-          puts message
+          puts error.message
       end
 
     else 
