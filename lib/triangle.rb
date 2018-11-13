@@ -13,7 +13,7 @@ attr_accessor  :side_one, :side_two, :side_three
     elsif
        ((side_one == side_two) && (side_two != side_three)) ||
        ((side_one == side_three) && (side_two != side_three)) ||
-       
+       ((side_two == side_three) && (side_one != side_three))
        :isosceles
     end
   end
