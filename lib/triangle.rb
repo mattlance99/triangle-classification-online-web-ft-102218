@@ -18,17 +18,15 @@ attr_accessor  :side_one, :side_two, :side_three
       raise TriangleError
     end
     
-  
-      if (side_one == side_two) && (side_two == side_three)
+    if (side_one == side_two) && (side_two == side_three)
       :equilateral
-      elsif
+    elsif
        ((side_one == side_two) && (side_two != side_three)) ||
        ((side_one == side_three) && (side_two != side_three)) ||
        ((side_two == side_three) && (side_one != side_three))
        :isosceles
-     else
+    else
        :scalene
-     
      end
   end
     
